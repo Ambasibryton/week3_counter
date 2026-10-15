@@ -1,17 +1,36 @@
-# week3_counter
 
-A new Flutter project.
+# Week 3 Counter App
 
-## Getting Started
+A beginner-friendly Flutter project for learning Flutter setup and widgets.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Displays a counter.
+- Increases the counter when the button is pressed.
+- Demonstrates StatefulWidget and setState().
+- Demonstrates basic Flutter layout and styling.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Requirements
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK
+- Dart SDK
+- Google Chrome (for running the web version)
+
+## How to Run
+
+1. Clone or download this repository.
+2. Open a terminal in the project folder.
+3. Run:
+
+   ```bash
+   flutter pub get
+   flutter run -d chrome
+   ```
+
+## Learning Objectives
+
+- Understand the Flutter widget tree.
+- Learn about StatelessWidget and StatefulWidget.
+- Understand button callbacks and state updates.
+- Practise Hot Reload.
+
